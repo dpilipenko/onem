@@ -1,7 +1,7 @@
 package onemap
 
 class Floor {
+	static hasMany = [seats: Seat]
 
-    static constraints = {
-    }
+	String name
 }

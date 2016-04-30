@@ -1,7 +1,5 @@
 package onemap
 
 class Seat {
-
-    static constraints = {
-    }
+	static belongsTo = [floor: Floor]
 }

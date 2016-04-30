@@ -1,7 +1,7 @@
 package onemap
 
 class Office {
+	static hasMany = [persons: Person]
 
-    static constraints = {
-    }
+	Seat seat
 }

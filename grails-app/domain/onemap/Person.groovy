@@ -1,7 +1,7 @@
 package onemap
 
 class Person {
-
-    static constraints = {
-    }
+	String firstName
+	String lastName
+	String email
 }

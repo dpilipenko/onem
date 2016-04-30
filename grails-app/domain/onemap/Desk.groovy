@@ -1,7 +1,6 @@
 package onemap
 
 class Desk {
-
-    static constraints = {
-    }
+	Seat seat
+	Person person
 }

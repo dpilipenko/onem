@@ -1,7 +1,5 @@
 package onemap
 
 class ConferenceRoom {
-
-    static constraints = {
-    }
+	Seat seat
 }

@@ -1,7 +1,7 @@
 package onemap
 
 class TeamRoom {
+	static hasMany = [persons: Person]
 
-    static constraints = {
-    }
+	Seat seat
 }
